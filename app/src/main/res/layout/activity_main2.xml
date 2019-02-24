@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+
+        android:text="Menu"
+        android:fontFamily="sans-serif"
+        android:textSize="30dp"
+        android:id="@+id/sub"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/Jumlah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/sub"
+        android:layout_marginTop="20dp"
+
+        android:text="Penjumlahan"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/Kurang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Jumlah"
+        android:layout_marginTop="5dp"
+
+        android:text="Pengurangan"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/Kali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Kurang"
+        android:layout_marginTop="5dp"
+
+        android:text="Perkalian"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/Bagi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Kali"
+        android:layout_marginTop="5dp"
+
+        android:text="Pembagian"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/kembali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Bagi"
+        android:layout_marginTop="50dp"
+
+        android:text="Kembali"
+        android:textSize="10dp" />
+
+</RelativeLayout>

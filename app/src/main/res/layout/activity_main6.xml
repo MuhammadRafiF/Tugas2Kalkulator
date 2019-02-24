@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main6Activity">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+
+        android:text="Pembagian"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/angka1"
+        android:layout_below="@+id/judul"
+        android:layout_marginTop="50dp"
+
+        android:hint="Angka"
+        android:textAlignment="center"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/angka1"
+        android:layout_marginTop="10dp"
+
+        android:text=":"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-condensed" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/angka2"
+        android:layout_below="@+id/angka1"
+        android:layout_marginTop="50dp"
+
+        android:hint="Angka"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/jmlh"
+        android:layout_below="@+id/angka2"
+        android:layout_marginTop="20dp"
+
+        android:text="0"
+        android:textSize="40dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btnjmlh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jmlh"
+        android:layout_marginTop="40dp"
+
+        android:fontFamily="sans-serif-condensed"
+        android:text="Hasil"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnjmlh"
+        android:layout_marginTop="5dp"
+
+        android:fontFamily="sans-serif-condensed"
+        android:text="Kembali"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+</RelativeLayout>
